@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:david="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.david.myratingbar.MainActivity">
+
+    <com.david.myratingbar.MyRatingView
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        david:lightDrawable="@drawable/light"
+        david:blackDrawable="@drawable/black"
+        david:markNum="0"
+        david:totalStarNum="10"
+        />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取"/>
+
+    <com.david.myratingbar.MyRatingView
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        david:lightDrawable="@drawable/ic_star_checked"
+        david:blackDrawable="@drawable/ic_star_normal"
+        david:markNum="5"
+        david:totalStarNum="7"
+        />
+</RelativeLayout>

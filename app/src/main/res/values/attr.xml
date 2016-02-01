@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyRatingView">
+        <attr name="totalStarNum" format="integer"></attr>
+        <attr name="markNum" format="integer"></attr>
+        <attr name="lightDrawable" format="reference"></attr>
+        <attr name="blackDrawable" format="reference"></attr>
+    </declare-styleable>
+</resources>
